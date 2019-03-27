@@ -39,7 +39,7 @@ const styles = (theme) => {
   return {
     chart: {
       color: dark ? '#ffffff' : undefined,
-      backgroundColor: dark ? '#453e68' : undefined,
+      backgroundColor: dark ? '#333333' : undefined,
     },
   };
 };

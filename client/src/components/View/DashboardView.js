@@ -24,7 +24,7 @@ const styles = (theme) => {
   const dark = type === 'dark';
   return {
     background: {
-      backgroundColor: dark ? 'rgb(36, 32, 54)' : '#f0f5f9',
+      backgroundColor: dark ? 'rgb(22, 22, 22)' : '#ffffff',
     },
     view: {
       paddingTop: 85,
@@ -54,7 +54,7 @@ const styles = (theme) => {
     },
     vdivide: {
       '&::after': {
-        borderRight: `2px ${dark ? 'rgb(40, 36, 61)' : '#dff1fe'} solid`,
+        borderRight: `2px ${dark ? 'rgb(40, 36, 61)' : '#e8e8e8'} solid`,
         display: 'block',
         height: '45%',
         bottom: '55%',
@@ -68,20 +68,20 @@ const styles = (theme) => {
       marginTop: '65%',
     },
     node: {
-      color: dark ? '#183a37' : '#21295c',
-      backgroundColor: dark ? 'rgb(104, 247, 235)' : '#858aa6',
+      color: dark ? '#183a37' : '#ffffff',
+      backgroundColor: dark ? 'rgb(104, 247, 235)' : '#D92B43',
     },
     block: {
-      color: dark ? '#1f1a33' : '#004d6b',
-      backgroundColor: dark ? 'rgb(106, 156, 248)' : '#b9d6e1',
+      color: dark ? '#1f1a33' : '#ffffff',
+      backgroundColor: dark ? 'rgb(106, 156, 248)' : '#D92B43',
     },
     chaincode: {
-      color: dark ? 'rgb(121, 83, 109)' : '#407b20',
-      backgroundColor: dark ? 'rgb(247, 205, 234)' : '#d0ecda',
+      color: dark ? 'rgb(121, 83, 109)' : '#ffffff',
+      backgroundColor: dark ? 'rgb(247, 205, 234)' : '#D92B43',
     },
     transaction: {
-      color: dark ? 'rgb(216, 142, 4)' : '#ffa686',
-      backgroundColor: dark ? 'rgb(252, 224, 174)' : '#ffeed8',
+      color: dark ? 'rgb(216, 142, 4)' : '#ffffff',
+      backgroundColor: dark ? 'rgb(252, 224, 174)' : '#D92B43',
     },
     section: {
       height: 335,

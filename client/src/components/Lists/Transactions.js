@@ -63,11 +63,12 @@ const styles = (theme) => {
       'margin-bottom': '4px',
     },
     searchButton: {
-      opacity: 0.8,
       margin: 'auto',
       width: '100% !important',
-      backgroundColor: dark ? undefined : '#086108',
+      color: '#ffffff',
+      backgroundColor: dark ? undefined : '#D92B43',
       'margin-bottom': '4px',
+      border: 'none',
     },
     filterElement: {
       textAlign: 'center',
@@ -358,7 +359,7 @@ To
           <div className="col-md-2">
             <Button
               className={classes.searchButton}
-              color="success"
+              color="default"
               disabled={this.state.err}
               onClick={async () => {
                 await this.handleSearch();
@@ -370,7 +371,7 @@ To
           <div className="col-md-1">
             <Button
               className={classes.filterButton}
-              color="primary"
+              color="secondary"
               onClick={() => {
                 this.handleClearSearch();
               }}

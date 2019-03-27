@@ -73,10 +73,8 @@ const styles = (theme) => {
   };
   return {
     logo: {
-      width: 260,
       height: 50,
       '@media (max-width: 1415px) and (min-width: 990px)': {
-        width: 200,
         height: 40,
       },
     },
@@ -99,10 +97,11 @@ const styles = (theme) => {
     },
     activeTab: {
       color: '#ffffff',
-      backgroundColor: dark ? '#453e68' : '#58c5c2',
+      backgroundColor: dark ? '#D92B43' : '#D92B43',
       height: 60,
       marginTop: 20,
       padding: 10,
+      borderRadius:100,
       '&:hover': {
         color: '#ffffff',
       },
@@ -489,16 +488,7 @@ export class HeaderView extends Component {
                   onClick={() => this.handleDrawOpen('adminDrawer')}
                 />
               </div> */}
-                  <div
-                    className={`${classes.adminButton} ${classes.themeSwitch}`}
-                  >
-                    <FontAwesome name="sun-o" className={classes.sunIcon} />
-                    <Switch
-                      onChange={() => this.handleThemeChange(mode)}
-                      checked={dark}
-                    />
-                    <FontAwesome name="moon-o" className={classes.moonIcon} />
-                  </div>
+                  
                 </Nav>
               </Collapse>
             </Navbar>

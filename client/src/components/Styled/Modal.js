@@ -10,7 +10,7 @@ const styles = (theme) => {
   return {
     title: {
       textAlign: 'center',
-      backgroundColor: dark ? '#242036' : '#004d6b',
+      backgroundColor: dark ? '#242036' : '#D92B43',
       color: '#ffffff',
       font: 'bold 30px',
       fontWeight: 400,
@@ -48,12 +48,11 @@ const styles = (theme) => {
     copyBtn: {
       float: 'right',
       borderColor: 'transparent',
-      color: dark ? '#ffffff' : '#4c69c7',
+      color: dark ? '#ffffff' : '#D92B43',
       backgroundColor: 'transparent',
       cursor: 'pointer',
-      textShadow: '1px 1px 2px rgba(129, 129, 129, 0.753)',
       '&:hover': {
-        color: dark ? '#ffffff' : '#2153f8',
+        color: dark ? '#ffffff' : '#D92B43',
       },
       '&:focus': {
         outline: 'none',
@@ -80,16 +79,15 @@ const styles = (theme) => {
     closeBtn: {
       float: 'right',
       borderColor: 'transparent',
-      color: '#8b0000',
+      color: '#ffffff',
       backgroundColor: 'transparent',
       margin: '-12px 10px 3px 0px',
       fontSize: 25,
       height: 30,
       cursor: 'pointer',
-      filter: 'drop-shadow(0 0 0.75rem #D8D6D6)',
       '&:focus': {
         outline: 'none',
-        color: '#c00404',
+        color: '#ffffff',
       },
     },
   };

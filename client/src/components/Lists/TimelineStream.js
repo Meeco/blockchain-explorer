@@ -26,13 +26,13 @@ const styles = (theme) => {
     text: {
       color: dark ? '#ffffff' : undefined,
       '& .badge-secondary': {
-        backgroundColor: '#5e548f',
+        backgroundColor: '#D92B43',
       },
     },
     event: {
       wordWrap: 'break-word',
       width: '90% !important',
-      backgroundColor: dark ? '#423b5f !important' : undefined,
+      backgroundColor: dark ? '#222222 !important' : undefined,
       '& p': {
         color: dark ? '#ffffff' : undefined,
       },
@@ -82,13 +82,13 @@ export class TimelineStream extends Component {
                 key={item.title}
                 title={item.title}
                 icon={<FontAwesome name="cube" />}
-                iconColor="#0D3799"
+                iconColor="#D92B43"
                 container="card"
                 className={classes.event}
                 titleStyle={{ fontWeight: 'bold' }}
                 style={{ width: '65%' }}
                 cardHeaderStyle={{
-                  backgroundColor: '#6283D0',
+                  backgroundColor: '#D92B43',
                   fontSize: '13pt',
                 }}
                 contentStyle={{

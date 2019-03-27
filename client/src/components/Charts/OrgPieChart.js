@@ -9,7 +9,7 @@ import {
 } from 'recharts';
 import { transactionByOrgType } from '../types';
 
-const colors = ['#0B091A', '#6283D0', '#0D3799', '#7C7C7C'];
+const colors = ['#bd162f', '#ec3549', '#fb3d4b', '#f09ba4'];
 
 const styles = (theme) => {
   const { type } = theme.palette;
@@ -18,10 +18,10 @@ const styles = (theme) => {
     container: {
       paddingLeft: '10%',
       '& .recharts-layer': {
-        fill: dark ? 'rgb(42, 173, 230) !important' : '#5bc5c2 !important',
+        fill: dark ? 'rgb(42, 173, 230) !important' : '#D92B43 !important',
       },
       '& .recharts-scatter-line': {
-        stroke: dark ? '#ffc145 !important' : '#5bc5c2 !important',
+        stroke: dark ? '#ffc145 !important' : '#D92B43 !important',
         strokeWidth: '2 !important',
       },
       '& .recharts-text': {
@@ -42,9 +42,9 @@ export class OrgPieChart extends Component {
     super(props);
     this.state = {
       data: [
-        { value: 3, name: 'OrdererMSP', fill: '#0B091A' },
-        { value: 40, name: 'Org1MSP', fill: '#6283D0' },
-        { value: 23, name: 'Org2MSP', fill: '#0D3799' },
+        { value: 3, name: 'OrdererMSP', fill: '#222222' },
+        { value: 40, name: 'Org1MSP', fill: '#fb3d4b' },
+        { value: 23, name: 'Org2MSP', fill: '#f09ba4' },
       ],
     };
   }

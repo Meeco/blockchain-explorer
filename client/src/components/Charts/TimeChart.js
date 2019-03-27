@@ -22,12 +22,12 @@ const styles = (theme) => {
   const dark = type === 'dark';
   return {
     content: {
-      backgroundColor: dark ? '#3c3558' : undefined,
+      backgroundColor: dark ? '#222222' : undefined,
       '& .recharts-layer': {
-        fill: dark ? 'rgb(42, 173, 230) !important' : '#5bc5c2 !important',
+        fill: dark ? 'rgb(42, 173, 230) !important' : '#D92B43 !important',
       },
       '& .recharts-scatter-line': {
-        stroke: dark ? '#ffc145 !important' : '#5bc5c2 !important',
+        stroke: dark ? '#ffc145 !important' : '#D92B43 !important',
         strokeWidth: '2 !important',
       },
       '& .recharts-text': {

@@ -42,9 +42,9 @@ class Theme extends Component {
       palette: {
         contrastThreshold: 3,
         tonalOffset: 0.2,
-        background: { paper: mode === 'dark' ? '#453e68' : '#ffffff' },
-        primary: { ...indigo, dark: '#242036' },
-        secondary: lightBlue,
+        background: { paper: mode === 'dark' ? '#222222' : '#ffffff' },
+        primary:{light:"rgba(236, 106, 133, 1)",main:"rgba(217, 43, 67, 1)",dark:"rgba(167, 9, 29, 1)",contrastText:"#fff"},
+        secondary:{light:"rgba(240, 240, 240, 1)",main:"rgba(155, 155, 155, 1)",dark:"rgba(74, 74, 74, 1)",contrastText:"#fff"},
         error: {
           main: red[500],
         },

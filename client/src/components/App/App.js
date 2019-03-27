@@ -20,7 +20,7 @@ const styles = (theme) => {
   const dark = type === 'dark';
   return {
     app: {
-      backgroundColor: dark ? 'rgb(36, 32, 54)' : 'rgb(240, 245, 249)',
+      backgroundColor: dark ? 'rgb(36, 32, 54)' : '#f9f9f9',
       position: 'absolute',
       top: 0,
       left: 0,

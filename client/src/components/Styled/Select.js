@@ -31,11 +31,11 @@ const styles = (theme) => {
         color: dark ? '#cfcdcd !important' : undefined,
       },
       '& .Select-option.is-selected': {
-        background: dark ? '#6a628e !important' : undefined,
+        background: dark ? '#6a628e !important' : '#feecf0',
         color: dark ? '#ffffff !important' : undefined,
       },
       '& .Select-option.is-focused': {
-        background: dark ? '#5d5291 !important' : undefined,
+        background: dark ? '#5d5291 !important' : '#feecf0',
         color: dark ? '#ffffff !important' : undefined,
       },
       '& .Select-value-label': {

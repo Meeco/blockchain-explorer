@@ -33,7 +33,7 @@ class BlockView extends Component {
           {modalClasses => (
             <Card className={modalClasses.card}>
               <CardTitle className={modalClasses.title}>
-                <FontAwesome name="cube" />
+                <FontAwesome name="cube" color="white" />
                 Block Details
               </CardTitle>
               <CardBody className={modalClasses.body}>

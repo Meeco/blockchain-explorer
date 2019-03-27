@@ -33,10 +33,10 @@ const styles = (theme) => {
         color: dark ? '#fff !important' : undefined,
       },
       '& .multi-select .select-item:hover': {
-        backgroundColor: dark ? '#594aa5 !important' : undefined,
+        backgroundColor: dark ? '#594aa5 !important' : '#feecf0',
       },
       '& .multi-select .select-item:visited': {
-        backgroundColor: dark ? '#594aa5 !important' : undefined,
+        backgroundColor: dark ? '#594aa5 !important' : '#feecf0',
       },
       '& ::-webkit-input-placeholder ': {
         /* Chrome/Opera/Safari */
